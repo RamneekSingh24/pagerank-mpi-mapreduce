@@ -48,24 +48,26 @@ namespace page_rank
 
             file.close();
 
-            out_degree.resize(num_nodes, 0);
+            out_degree.assign(num_nodes, 0);
 
             for (auto &edge : edges)
             {
                 out_degree[edge.first]++;
             }
-
-            for (int i = 0; i < num_nodes; i++)
-            {
-                if (out_degree[i] == 0)
-                {
-                    for (int j = 0; j < num_nodes; j++)
-                    {
-                        edges.push_back(std::make_pair(i, j));
-                    }
-                    out_degree[i] = num_nodes;
-                }
-            }
+            // int c = 0;
+            // for (int i = 0; i < num_nodes; i++)
+            // {
+            //     if (out_degree[i] == 0)
+            //     {
+            //         c += 1;
+            //         std::cout << c << " " << " " << i << " " << num_nodes << std::endl;
+            //         for (int j = 0; j < num_nodes; j++)
+            //         {
+            //             edges.push_back(std::make_pair(i, j));
+            //         }
+            //         out_degree[i] = num_nodes;
+            //     }
+            // }
             num_edges = edges.size();
             page_rank = new double[num_nodes];
             for (int i = 0; i < num_nodes; i++)
@@ -84,7 +86,7 @@ namespace page_rank
     template <typename MapTask>
     class datasource : mapreduce::detail::noncopyable
     {
-        public:
+    public:
         typedef std::pair<int, int> value_type;
 
         datasource() : sequence_(0)
@@ -122,7 +124,6 @@ namespace page_rank
     struct reduce_task : public mapreduce::reduce_task<int, double>
     {
 
-
         template <typename Runtime, typename It>
         void operator()(Runtime &runtime, key_type const &key, It it, It ite) const
         {
@@ -136,14 +137,15 @@ namespace page_rank
     typedef mapreduce::job<page_rank::map_task,
                            page_rank::reduce_task,
                            mapreduce::null_combiner,
-                           page_rank::datasource<page_rank::map_task>> job;
+                           page_rank::datasource<page_rank::map_task>>
+        job;
 
 } // namespace page_rank
 
 int main(int argc, char *argv[])
 {
     mapreduce::specification spec;
-    
+
     if (argc < 3)
     {
         std::cerr << "Usage: " << argv[0] << " <input_file> <output_file>" << std::endl;
@@ -158,55 +160,70 @@ int main(int argc, char *argv[])
     double THRESHOLD = 0.00001;
     bool done = false;
 
-    double* page_rank_ = new  double[page_rank::graph->num_nodes];
+    double *page_rank_ = new double[page_rank::graph->num_nodes];
 
     int itr = 0;
 
-    auto start = std::chrono::high_resolution_clock::now(); 
-    do {
+    auto start = std::chrono::high_resolution_clock::now();
+    do
+    {
 
-        memcpy(page_rank_, page_rank::graph->page_rank, sizeof(double) * page_rank::graph->num_nodes);
+        double prev_avg = 0.0;
+        double z_out_sum = 0.0;
+
+
+        for (int i = 0; i < page_rank::graph->num_nodes; i++)
+        {
+            prev_avg += page_rank::graph->page_rank[i] / page_rank::graph->num_nodes;
+            if (page_rank::graph->out_degree[i] == 0)
+            {
+                z_out_sum += page_rank::graph->page_rank[i] / page_rank::graph->num_nodes;
+            }
+        }
+
 
         page_rank::job::datasource_type datasource;
         page_rank::job job(datasource, spec);
-        mapreduce::results            result;
+        mapreduce::results result;
 
-        job.run<mapreduce::schedule_policy::cpu_parallel<page_rank::job>> (result);
+        job.run<mapreduce::schedule_policy::cpu_parallel<page_rank::job>>(result);
 
-        double prev_avg = 0.0;
+        std::swap(page_rank_, page_rank::graph->page_rank);
 
-        for (int i = 0; i < page_rank::graph->num_nodes; i++) {
-            prev_avg += page_rank::graph->page_rank[i] / page_rank::graph->num_nodes;
+        for (int i = 0; i < page_rank::graph->num_nodes; i++)
+        {
+            page_rank::graph->page_rank[i] = 0.0;
         }
 
-        for (auto it = job.begin_results(); it != job.end_results(); it++) {
-            page_rank::graph->page_rank[it->first] = it->second;        
+        for (auto it = job.begin_results(); it != job.end_results(); it++)
+        {
+            page_rank::graph->page_rank[it->first] = it->second;
         }
 
         double diff = 0.0;
 
-        for (int i = 0; i < page_rank::graph->num_nodes; i++) {
+        for (int i = 0; i < page_rank::graph->num_nodes; i++)
+        {
+            page_rank::graph->page_rank[i] += z_out_sum;
             page_rank::graph->page_rank[i] *= ALPHA;
-            page_rank::graph->page_rank[i] += (1 - ALPHA) *  prev_avg;
+            page_rank::graph->page_rank[i] += (1 - ALPHA) * prev_avg;
             diff += std::abs(page_rank::graph->page_rank[i] - page_rank_[i]);
         }
-        
-        auto end = std::chrono::high_resolution_clock::now(); 
 
-        std::cout << "itr: " << itr << " diff: " <<  diff << ", ended at " << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() << "ms since start..." << std::endl;
+        auto end = std::chrono::high_resolution_clock::now();
+
+        std::cout << "itr: " << itr << " diff: " << diff << ", ended at " << std::chrono::duration_cast<std::chrono::microseconds>(end - start).count() << "ms since start..." << std::endl;
         itr++;
 
         done = diff < THRESHOLD;
-
-
 
     } while (!done);
 
     delete[] page_rank_;
 
-
     std::ofstream file(argv[2]);
-    for (int i = 0; i < page_rank::graph->num_nodes; i++) {
+    for (int i = 0; i < page_rank::graph->num_nodes; i++)
+    {
         file << i << " " << page_rank::graph->page_rank[i] << std::endl;
     }
     file.close();

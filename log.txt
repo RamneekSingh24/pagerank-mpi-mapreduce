@@ -1,0 +1,477 @@
+checking part2
+pagerank/test/barabasi-100000.txt
+1748.1224536895752 ms
+l2error 1.154268482697764e-06
+pagerank/test/java-org.txt
+1590.127944946289 ms
+pagerank/test/erdos-90000.txt
+1333.2295417785645 ms
+pagerank/test/erdos.txt
+386.8672847747803 ms
+pagerank/test/all-tests.txt
+352.74767875671387 ms
+pagerank/test/frucht.txt
+368.00479888916016 ms
+l2error 1.1545752911014908e-06
+pagerank/test/icosahedral.txt
+387.9227638244629 ms
+l2error 1.3153315435431837e-06
+pagerank/test/levi.txt
+409.97982025146484 ms
+l2error 1.4092844154159915e-06
+pagerank/test/smallestcyclicgroup.txt
+391.5905952453613 ms
+l2error 7.152427966393413e-07
+pagerank/test/coxeter.txt
+388.7972831726074 ms
+l2error 6.014450567014257e-07
+pagerank/test/heawood.txt
+376.01447105407715 ms
+l2error 1.9271049898495875e-06
+pagerank/test/chvatal.txt
+374.3412494659424 ms
+l2error 9.941561896244826e-07
+pagerank/test/erdos-20000.txt
+601.1693477630615 ms
+pagerank/test/barabasi.txt
+372.8611469268799 ms
+pagerank/test/nonline.txt
+402.0078182220459 ms
+l2error 4.185999082498852e-07
+pagerank/test/herschel.txt
+384.981632232666 ms
+l2error 1.3099447792097464e-06
+pagerank/test/octahedral.txt
+393.2802677154541 ms
+l2error 1.0488622398655831e-06
+pagerank/test/tetrahedral.txt
+367.4886226654053 ms
+l2error 5.754621070160583e-07
+pagerank/test/barabasi-90000.txt
+1470.6063270568848 ms
+l2error 1.1067810634017358e-06
+pagerank/test/java-tests.txt
+420.2601909637451 ms
+pagerank/test/barabasi-20000.txt
+611.4706993103027 ms
+l2error 1.9313340991334557e-06
+pagerank/test/barabasi-80000.txt
+1337.0261192321777 ms
+l2error 8.832975414903688e-07
+pagerank/test/barabasi-50000.txt
+1121.9332218170166 ms
+l2error 1.1568782414038272e-06
+pagerank/test/ring.txt
+408.0016613006592 ms
+pagerank/test/erdos-60000.txt
+1045.0775623321533 ms
+pagerank/test/erdos-30000.txt
+731.1568260192871 ms
+pagerank/test/cubical.txt
+376.5232563018799 ms
+l2error 1.3596706523170264e-06
+pagerank/test/tutte.txt
+374.33815002441406 ms
+l2error 1.6646043233230777e-06
+pagerank/test/thomassen.txt
+369.17614936828613 ms
+l2error 2.832639392467538e-06
+pagerank/test/noperfectmatching.txt
+350.9707450866699 ms
+l2error 3.371588717346473e-06
+pagerank/test/barabasi-60000.txt
+1101.525068283081 ms
+l2error 4.422250239928397e-07
+pagerank/test/erdos-70000.txt
+1231.865644454956 ms
+pagerank/test/erdos-50000.txt
+1060.4205131530762 ms
+pagerank/test/erdos-40000.txt
+840.4653072357178 ms
+pagerank/test/diamond.txt
+359.13825035095215 ms
+l2error 1.4872796201514466e-06
+pagerank/test/bull.txt
+372.3442554473877 ms
+l2error 3.2517794517331892e-06
+pagerank/test/housex.txt
+389.9359703063965 ms
+l2error 1.5891531165421565e-06
+pagerank/test/barabasi-40000.txt
+838.2160663604736 ms
+l2error 9.632785939952223e-07
+pagerank/test/folkman.txt
+386.75975799560547 ms
+l2error 4.384006976776413e-07
+pagerank/test/grotzsch.txt
+374.29237365722656 ms
+l2error 8.67158116640865e-07
+pagerank/test/erdos-100000.txt
+1417.6995754241943 ms
+pagerank/test/meredith.txt
+431.6699504852295 ms
+l2error 3.566941519559763e-07
+pagerank/test/robertson.txt
+390.57016372680664 ms
+l2error 1.6675101070944137e-06
+pagerank/test/erdos-80000.txt
+1303.6668300628662 ms
+pagerank/test/erdos-10000.txt
+556.9055080413818 ms
+pagerank/test/barabasi-30000.txt
+804.1591644287109 ms
+l2error 1.3702259043219729e-06
+pagerank/test/uniquely3colorable.txt
+391.48688316345215 ms
+l2error 5.998713001645669e-07
+pagerank/test/petersen.txt
+371.0634708404541 ms
+l2error 5.539893537284827e-07
+pagerank/test/famous.txt
+361.2854480743408 ms
+pagerank/test/house.txt
+379.7595500946045 ms
+l2error 2.0230688395160102e-06
+pagerank/test/java.txt
+1578.2623291015625 ms
+pagerank/test/zachary.txt
+420.6054210662842 ms
+pagerank/test/walther.txt
+370.7902431488037 ms
+l2error 8.997374990395482e-07
+pagerank/test/krackhardt_kite.txt
+381.47926330566406 ms
+l2error 2.267980661646104e-06
+pagerank/test/dodecahedral.txt
+365.65423011779785 ms
+l2error 1.266615883488475e-06
+pagerank/test/barabasi-70000.txt
+1364.819049835205 ms
+l2error 1.4229777736966686e-06
+pagerank/test/franklin.txt
+436.0487461090088 ms
+l2error 2.2013292138082913e-06
+pagerank/test/mcgee.txt
+373.8682270050049 ms
+l2error 2.4469772704528195e-06
+part2
+['pagerank/test/barabasi-100000.txt', 'pagerank/test/java-org.txt', 'pagerank/test/erdos-90000.txt', 'pagerank/test/erdos.txt', 'pagerank/test/all-tests.txt', 'pagerank/test/frucht.txt', 'pagerank/test/icosahedral.txt', 'pagerank/test/levi.txt', 'pagerank/test/smallestcyclicgroup.txt', 'pagerank/test/coxeter.txt', 'pagerank/test/heawood.txt', 'pagerank/test/chvatal.txt', 'pagerank/test/erdos-20000.txt', 'pagerank/test/barabasi.txt', 'pagerank/test/nonline.txt', 'pagerank/test/herschel.txt', 'pagerank/test/octahedral.txt', 'pagerank/test/tetrahedral.txt', 'pagerank/test/barabasi-90000.txt', 'pagerank/test/java-tests.txt', 'pagerank/test/barabasi-20000.txt', 'pagerank/test/barabasi-80000.txt', 'pagerank/test/barabasi-50000.txt', 'pagerank/test/ring.txt', 'pagerank/test/erdos-60000.txt', 'pagerank/test/erdos-30000.txt', 'pagerank/test/cubical.txt', 'pagerank/test/tutte.txt', 'pagerank/test/thomassen.txt', 'pagerank/test/noperfectmatching.txt', 'pagerank/test/barabasi-60000.txt', 'pagerank/test/erdos-70000.txt', 'pagerank/test/erdos-50000.txt', 'pagerank/test/erdos-40000.txt', 'pagerank/test/diamond.txt', 'pagerank/test/bull.txt', 'pagerank/test/housex.txt', 'pagerank/test/barabasi-40000.txt', 'pagerank/test/folkman.txt', 'pagerank/test/grotzsch.txt', 'pagerank/test/erdos-100000.txt', 'pagerank/test/meredith.txt', 'pagerank/test/robertson.txt', 'pagerank/test/erdos-80000.txt', 'pagerank/test/erdos-10000.txt', 'pagerank/test/barabasi-30000.txt', 'pagerank/test/uniquely3colorable.txt', 'pagerank/test/petersen.txt', 'pagerank/test/famous.txt', 'pagerank/test/house.txt', 'pagerank/test/java.txt', 'pagerank/test/zachary.txt', 'pagerank/test/walther.txt', 'pagerank/test/krackhardt_kite.txt', 'pagerank/test/dodecahedral.txt', 'pagerank/test/barabasi-70000.txt', 'pagerank/test/franklin.txt', 'pagerank/test/mcgee.txt']
+[1.7481224536895752, 1.590127944946289, 1.3332295417785645, 0.3868672847747803, 0.35274767875671387, 0.36800479888916016, 0.3879227638244629, 0.40997982025146484, 0.39159059524536133, 0.3887972831726074, 0.37601447105407715, 0.3743412494659424, 0.6011693477630615, 0.3728611469268799, 0.4020078182220459, 0.384981632232666, 0.3932802677154541, 0.3674886226654053, 1.4706063270568848, 0.4202601909637451, 0.6114706993103027, 1.3370261192321777, 1.1219332218170166, 0.4080016613006592, 1.0450775623321533, 0.7311568260192871, 0.3765232563018799, 0.37433815002441406, 0.36917614936828613, 0.3509707450866699, 1.101525068283081, 1.231865644454956, 1.0604205131530762, 0.8404653072357178, 0.35913825035095215, 0.3723442554473877, 0.3899359703063965, 0.8382160663604736, 0.38675975799560547, 0.37429237365722656, 1.4176995754241943, 0.4316699504852295, 0.39057016372680664, 1.3036668300628662, 0.5569055080413818, 0.8041591644287109, 0.39148688316345215, 0.3710634708404541, 0.3612854480743408, 0.3797595500946045, 1.5782623291015625, 0.4206054210662842, 0.3707902431488037, 0.38147926330566406, 0.36565423011779785, 1.364819049835205, 0.4360487461090088, 0.3738682270050049]
+checking part2
+pagerank/test/barabasi-100000.txt
+2000.204086303711 ms
+l2error 1.154268482697764e-06
+pagerank/test/java-org.txt
+1845.543384552002 ms
+pagerank/test/erdos-90000.txt
+1616.6889667510986 ms
+pagerank/test/erdos.txt
+417.18053817749023 ms
+pagerank/test/all-tests.txt
+404.0348529815674 ms
+pagerank/test/frucht.txt
+541.1949157714844 ms
+l2error 1.1545752911014908e-06
+pagerank/test/icosahedral.txt
+543.7641143798828 ms
+l2error 1.3153315435431837e-06
+pagerank/test/levi.txt
+672.248125076294 ms
+l2error 1.4092844154159915e-06
+pagerank/test/smallestcyclicgroup.txt
+518.779993057251 ms
+l2error 7.152427966393413e-07
+pagerank/test/coxeter.txt
+542.4163341522217 ms
+l2error 6.014450567014257e-07
+pagerank/test/heawood.txt
+713.437557220459 ms
+l2error 1.9271049898495875e-06
+pagerank/test/chvatal.txt
+663.9130115509033 ms
+l2error 9.941561896244826e-07
+pagerank/test/erdos-20000.txt
+673.3849048614502 ms
+pagerank/test/barabasi.txt
+378.9019584655762 ms
+pagerank/test/nonline.txt
+565.8392906188965 ms
+l2error 4.185999082498852e-07
+pagerank/test/herschel.txt
+533.5676670074463 ms
+l2error 1.3099447792097464e-06
+pagerank/test/octahedral.txt
+591.346025466919 ms
+l2error 1.0488622398655831e-06
+pagerank/test/tetrahedral.txt
+562.8964900970459 ms
+l2error 5.754621070160583e-07
+pagerank/test/barabasi-90000.txt
+2004.7578811645508 ms
+l2error 1.1067810634017358e-06
+pagerank/test/java-tests.txt
+441.76340103149414 ms
+pagerank/test/barabasi-20000.txt
+982.4306964874268 ms
+l2error 1.9313340991334557e-06
+pagerank/test/barabasi-80000.txt
+1777.3585319519043 ms
+l2error 8.832975414903688e-07
+pagerank/test/barabasi-50000.txt
+1427.258014678955 ms
+l2error 1.1568782414038272e-06
+pagerank/test/ring.txt
+457.7038288116455 ms
+pagerank/test/erdos-60000.txt
+1137.1982097625732 ms
+pagerank/test/erdos-30000.txt
+850.5783081054688 ms
+pagerank/test/cubical.txt
+628.7214756011963 ms
+l2error 1.3596706523170264e-06
+pagerank/test/tutte.txt
+614.9632930755615 ms
+l2error 1.6646043233230777e-06
+pagerank/test/thomassen.txt
+711.6837501525879 ms
+l2error 2.832639392467538e-06
+pagerank/test/noperfectmatching.txt
+658.1571102142334 ms
+l2error 3.371588717346473e-06
+pagerank/test/barabasi-60000.txt
+1420.4115867614746 ms
+l2error 4.422250239928397e-07
+pagerank/test/erdos-70000.txt
+1261.521816253662 ms
+pagerank/test/erdos-50000.txt
+1099.782943725586 ms
+pagerank/test/erdos-40000.txt
+941.5864944458008 ms
+pagerank/test/diamond.txt
+569.8251724243164 ms
+l2error 1.4872796201514466e-06
+pagerank/test/bull.txt
+555.1314353942871 ms
+l2error 3.2517794517331892e-06
+pagerank/test/housex.txt
+577.4590969085693 ms
+l2error 1.5891531165421565e-06
+pagerank/test/barabasi-40000.txt
+1064.1558170318604 ms
+l2error 9.632785939952223e-07
+pagerank/test/folkman.txt
+602.3142337799072 ms
+l2error 4.384006976776413e-07
+pagerank/test/grotzsch.txt
+471.5886116027832 ms
+l2error 8.67158116640865e-07
+pagerank/test/erdos-100000.txt
+1541.109323501587 ms
+pagerank/test/meredith.txt
+588.3700847625732 ms
+l2error 3.566941519559763e-07
+pagerank/test/robertson.txt
+674.1499900817871 ms
+l2error 1.6675101070944137e-06
+pagerank/test/erdos-80000.txt
+1350.7044315338135 ms
+pagerank/test/erdos-10000.txt
+593.095064163208 ms
+pagerank/test/barabasi-30000.txt
+1166.9507026672363 ms
+l2error 1.3702259043219729e-06
+pagerank/test/uniquely3colorable.txt
+591.2938117980957 ms
+l2error 5.998713001645669e-07
+pagerank/test/petersen.txt
+555.8862686157227 ms
+l2error 5.539893537284827e-07
+pagerank/test/famous.txt
+415.76480865478516 ms
+pagerank/test/house.txt
+619.0588474273682 ms
+l2error 2.0230688395160102e-06
+pagerank/test/java.txt
+1712.9631042480469 ms
+pagerank/test/zachary.txt
+485.7923984527588 ms
+pagerank/test/walther.txt
+548.4137535095215 ms
+l2error 8.997374990395482e-07
+pagerank/test/krackhardt_kite.txt
+771.4018821716309 ms
+l2error 2.267980661646104e-06
+pagerank/test/dodecahedral.txt
+626.3124942779541 ms
+l2error 1.266615883488475e-06
+pagerank/test/barabasi-70000.txt
+1675.1086711883545 ms
+l2error 1.4229777736966686e-06
+pagerank/test/franklin.txt
+711.7166519165039 ms
+l2error 2.2013292138082913e-06
+pagerank/test/mcgee.txt
+725.7695198059082 ms
+l2error 2.4469772704528195e-06
+part3
+['pagerank/test/barabasi-100000.txt', 'pagerank/test/java-org.txt', 'pagerank/test/erdos-90000.txt', 'pagerank/test/erdos.txt', 'pagerank/test/all-tests.txt', 'pagerank/test/frucht.txt', 'pagerank/test/icosahedral.txt', 'pagerank/test/levi.txt', 'pagerank/test/smallestcyclicgroup.txt', 'pagerank/test/coxeter.txt', 'pagerank/test/heawood.txt', 'pagerank/test/chvatal.txt', 'pagerank/test/erdos-20000.txt', 'pagerank/test/barabasi.txt', 'pagerank/test/nonline.txt', 'pagerank/test/herschel.txt', 'pagerank/test/octahedral.txt', 'pagerank/test/tetrahedral.txt', 'pagerank/test/barabasi-90000.txt', 'pagerank/test/java-tests.txt', 'pagerank/test/barabasi-20000.txt', 'pagerank/test/barabasi-80000.txt', 'pagerank/test/barabasi-50000.txt', 'pagerank/test/ring.txt', 'pagerank/test/erdos-60000.txt', 'pagerank/test/erdos-30000.txt', 'pagerank/test/cubical.txt', 'pagerank/test/tutte.txt', 'pagerank/test/thomassen.txt', 'pagerank/test/noperfectmatching.txt', 'pagerank/test/barabasi-60000.txt', 'pagerank/test/erdos-70000.txt', 'pagerank/test/erdos-50000.txt', 'pagerank/test/erdos-40000.txt', 'pagerank/test/diamond.txt', 'pagerank/test/bull.txt', 'pagerank/test/housex.txt', 'pagerank/test/barabasi-40000.txt', 'pagerank/test/folkman.txt', 'pagerank/test/grotzsch.txt', 'pagerank/test/erdos-100000.txt', 'pagerank/test/meredith.txt', 'pagerank/test/robertson.txt', 'pagerank/test/erdos-80000.txt', 'pagerank/test/erdos-10000.txt', 'pagerank/test/barabasi-30000.txt', 'pagerank/test/uniquely3colorable.txt', 'pagerank/test/petersen.txt', 'pagerank/test/famous.txt', 'pagerank/test/house.txt', 'pagerank/test/java.txt', 'pagerank/test/zachary.txt', 'pagerank/test/walther.txt', 'pagerank/test/krackhardt_kite.txt', 'pagerank/test/dodecahedral.txt', 'pagerank/test/barabasi-70000.txt', 'pagerank/test/franklin.txt', 'pagerank/test/mcgee.txt']
+[2.000204086303711, 1.845543384552002, 1.6166889667510986, 0.41718053817749023, 0.4040348529815674, 0.5411949157714844, 0.5437641143798828, 0.672248125076294, 0.518779993057251, 0.5424163341522217, 0.713437557220459, 0.6639130115509033, 0.6733849048614502, 0.37890195846557617, 0.5658392906188965, 0.5335676670074463, 0.591346025466919, 0.5628964900970459, 2.004757881164551, 0.44176340103149414, 0.9824306964874268, 1.7773585319519043, 1.427258014678955, 0.4577038288116455, 1.1371982097625732, 0.8505783081054688, 0.6287214756011963, 0.6149632930755615, 0.7116837501525879, 0.6581571102142334, 1.4204115867614746, 1.261521816253662, 1.099782943725586, 0.9415864944458008, 0.5698251724243164, 0.5551314353942871, 0.5774590969085693, 1.0641558170318604, 0.6023142337799072, 0.4715886116027832, 1.541109323501587, 0.5883700847625732, 0.6741499900817871, 1.3507044315338135, 0.593095064163208, 1.1669507026672363, 0.5912938117980957, 0.5558862686157227, 0.41576480865478516, 0.6190588474273682, 1.7129631042480469, 0.4857923984527588, 0.5484137535095215, 0.7714018821716309, 0.6263124942779541, 1.6751086711883545, 0.7117166519165039, 0.7257695198059082]
+checking part1
+pagerank/test/barabasi-100000.txt
+5850.120067596436 ms
+l2error 1.154268482697764e-06
+pagerank/test/java-org.txt
+8314.889907836914 ms
+pagerank/test/erdos-90000.txt
+1608.1211566925049 ms
+pagerank/test/erdos.txt
+2.8481483459472656 ms
+pagerank/test/all-tests.txt
+1.9516944885253906 ms
+pagerank/test/frucht.txt
+5.529642105102539 ms
+l2error 1.1545752911014908e-06
+pagerank/test/icosahedral.txt
+37.99080848693848 ms
+l2error 1.3153315435431837e-06
+pagerank/test/levi.txt
+80.53469657897949 ms
+l2error 1.4092844154159915e-06
+pagerank/test/smallestcyclicgroup.txt
+79.34927940368652 ms
+l2error 7.152427966393413e-07
+pagerank/test/coxeter.txt
+80.54542541503906 ms
+l2error 6.014450567014257e-07
+pagerank/test/heawood.txt
+80.26838302612305 ms
+l2error 1.9271049898495875e-06
+pagerank/test/chvatal.txt
+108.07156562805176 ms
+l2error 9.941561896244826e-07
+pagerank/test/erdos-20000.txt
+400.12049674987793 ms
+pagerank/test/barabasi.txt
+5.4721832275390625 ms
+pagerank/test/nonline.txt
+6.761789321899414 ms
+l2error 4.185999082498852e-07
+pagerank/test/herschel.txt
+72.4954605102539 ms
+l2error 1.3099447792097464e-06
+pagerank/test/octahedral.txt
+80.6882381439209 ms
+l2error 1.0488622398655831e-06
+pagerank/test/tetrahedral.txt
+79.57577705383301 ms
+l2error 5.754621070160583e-07
+pagerank/test/barabasi-90000.txt
+4852.431774139404 ms
+l2error 1.1067810634017358e-06
+pagerank/test/java-tests.txt
+2.3343563079833984 ms
+pagerank/test/barabasi-20000.txt
+954.6606540679932 ms
+l2error 1.9313340991334557e-06
+pagerank/test/barabasi-80000.txt
+4430.860280990601 ms
+l2error 8.832975414903688e-07
+pagerank/test/barabasi-50000.txt
+2417.5074100494385 ms
+l2error 1.1568782414038272e-06
+pagerank/test/ring.txt
+2.69317626953125 ms
+pagerank/test/erdos-60000.txt
+1010.7524394989014 ms
+pagerank/test/erdos-30000.txt
+480.23009300231934 ms
+pagerank/test/cubical.txt
+5.988359451293945 ms
+l2error 1.3596706523170264e-06
+pagerank/test/tutte.txt
+15.817642211914062 ms
+l2error 1.6646043233230777e-06
+pagerank/test/thomassen.txt
+91.88222885131836 ms
+l2error 2.832639392467538e-06
+pagerank/test/noperfectmatching.txt
+90.3158187866211 ms
+l2error 3.371588717346473e-06
+pagerank/test/barabasi-60000.txt
+2832.261323928833 ms
+l2error 4.422250239928397e-07
+pagerank/test/erdos-70000.txt
+1169.8570251464844 ms
+pagerank/test/erdos-50000.txt
+831.2015533447266 ms
+pagerank/test/erdos-40000.txt
+658.8120460510254 ms
+pagerank/test/diamond.txt
+4.99415397644043 ms
+l2error 1.4872796201514466e-06
+pagerank/test/bull.txt
+18.253564834594727 ms
+l2error 3.2517794517331892e-06
+pagerank/test/housex.txt
+12.566804885864258 ms
+l2error 1.5891531165421565e-06
+pagerank/test/barabasi-40000.txt
+1775.862216949463 ms
+l2error 9.632785939952223e-07
+pagerank/test/folkman.txt
+6.402492523193359 ms
+l2error 4.384006976776413e-07
+pagerank/test/grotzsch.txt
+40.83871841430664 ms
+l2error 8.67158116640865e-07
+pagerank/test/erdos-100000.txt
+1736.6399765014648 ms
+pagerank/test/meredith.txt
+7.554531097412109 ms
+l2error 3.566941519559763e-07
+pagerank/test/robertson.txt
+50.523996353149414 ms
+l2error 1.6675101070944137e-06
+pagerank/test/erdos-80000.txt
+1376.1730194091797 ms
+pagerank/test/erdos-10000.txt
+173.1421947479248 ms
+pagerank/test/barabasi-30000.txt
+1495.6507682800293 ms
+l2error 1.3702259043219729e-06
+pagerank/test/uniquely3colorable.txt
+4.961729049682617 ms
+l2error 5.998713001645669e-07
+pagerank/test/petersen.txt
+124.52054023742676 ms
+l2error 5.539893537284827e-07
+pagerank/test/famous.txt
+4.041194915771484 ms
+pagerank/test/house.txt
+10.824441909790039 ms
+l2error 2.0230688395160102e-06
+pagerank/test/java.txt
+8310.149669647217 ms
+pagerank/test/zachary.txt
+2.524137496948242 ms
+pagerank/test/walther.txt
+6.249904632568359 ms
+l2error 8.997374990395482e-07
+pagerank/test/krackhardt_kite.txt
+55.09448051452637 ms
+l2error 2.267980661646104e-06
+pagerank/test/dodecahedral.txt
+91.67313575744629 ms
+l2error 1.266615883488475e-06
+pagerank/test/barabasi-70000.txt
+3636.146068572998 ms
+l2error 1.4229777736966686e-06
+pagerank/test/franklin.txt
+7.969379425048828 ms
+l2error 2.2013292138082913e-06
+pagerank/test/mcgee.txt
+35.126447677612305 ms
+l2error 2.4469772704528195e-06
+part1
+['pagerank/test/barabasi-100000.txt', 'pagerank/test/java-org.txt', 'pagerank/test/erdos-90000.txt', 'pagerank/test/erdos.txt', 'pagerank/test/all-tests.txt', 'pagerank/test/frucht.txt', 'pagerank/test/icosahedral.txt', 'pagerank/test/levi.txt', 'pagerank/test/smallestcyclicgroup.txt', 'pagerank/test/coxeter.txt', 'pagerank/test/heawood.txt', 'pagerank/test/chvatal.txt', 'pagerank/test/erdos-20000.txt', 'pagerank/test/barabasi.txt', 'pagerank/test/nonline.txt', 'pagerank/test/herschel.txt', 'pagerank/test/octahedral.txt', 'pagerank/test/tetrahedral.txt', 'pagerank/test/barabasi-90000.txt', 'pagerank/test/java-tests.txt', 'pagerank/test/barabasi-20000.txt', 'pagerank/test/barabasi-80000.txt', 'pagerank/test/barabasi-50000.txt', 'pagerank/test/ring.txt', 'pagerank/test/erdos-60000.txt', 'pagerank/test/erdos-30000.txt', 'pagerank/test/cubical.txt', 'pagerank/test/tutte.txt', 'pagerank/test/thomassen.txt', 'pagerank/test/noperfectmatching.txt', 'pagerank/test/barabasi-60000.txt', 'pagerank/test/erdos-70000.txt', 'pagerank/test/erdos-50000.txt', 'pagerank/test/erdos-40000.txt', 'pagerank/test/diamond.txt', 'pagerank/test/bull.txt', 'pagerank/test/housex.txt', 'pagerank/test/barabasi-40000.txt', 'pagerank/test/folkman.txt', 'pagerank/test/grotzsch.txt', 'pagerank/test/erdos-100000.txt', 'pagerank/test/meredith.txt', 'pagerank/test/robertson.txt', 'pagerank/test/erdos-80000.txt', 'pagerank/test/erdos-10000.txt', 'pagerank/test/barabasi-30000.txt', 'pagerank/test/uniquely3colorable.txt', 'pagerank/test/petersen.txt', 'pagerank/test/famous.txt', 'pagerank/test/house.txt', 'pagerank/test/java.txt', 'pagerank/test/zachary.txt', 'pagerank/test/walther.txt', 'pagerank/test/krackhardt_kite.txt', 'pagerank/test/dodecahedral.txt', 'pagerank/test/barabasi-70000.txt', 'pagerank/test/franklin.txt', 'pagerank/test/mcgee.txt']
+[5.8501200675964355, 8.314889907836914, 1.6081211566925049, 0.0028481483459472656, 0.0019516944885253906, 0.005529642105102539, 0.03799080848693848, 0.08053469657897949, 0.07934927940368652, 0.08054542541503906, 0.08026838302612305, 0.10807156562805176, 0.40012049674987793, 0.0054721832275390625, 0.006761789321899414, 0.0724954605102539, 0.0806882381439209, 0.07957577705383301, 4.852431774139404, 0.0023343563079833984, 0.9546606540679932, 4.430860280990601, 2.4175074100494385, 0.00269317626953125, 1.0107524394989014, 0.48023009300231934, 0.005988359451293945, 0.015817642211914062, 0.09188222885131836, 0.0903158187866211, 2.832261323928833, 1.1698570251464844, 0.8312015533447266, 0.6588120460510254, 0.00499415397644043, 0.018253564834594727, 0.012566804885864258, 1.775862216949463, 0.006402492523193359, 0.04083871841430664, 1.7366399765014648, 0.007554531097412109, 0.050523996353149414, 1.3761730194091797, 0.1731421947479248, 1.4956507682800293, 0.004961729049682617, 0.12452054023742676, 0.004041194915771484, 0.010824441909790039, 8.310149669647217, 0.002524137496948242, 0.006249904632568359, 0.05509448051452637, 0.09167313575744629, 3.636146068572998, 0.007969379425048828, 0.035126447677612305]
